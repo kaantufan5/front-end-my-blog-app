@@ -54,7 +54,7 @@ const PostDetails = () => {
 
   useEffect(() => {
     getPostDetails(id)
-  }, []);
+  }, [getPostDetails, id]);
 
  
   const handleLike = (e) => {
