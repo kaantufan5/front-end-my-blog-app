@@ -9,7 +9,7 @@ import React from "react";
 
 export const AuthContext = createContext()
 
-const url = "http://127.0.0.1:8000/"
+const url = "https://back-end-my-blog-app.herokuapp.com/"
 
 const AuthContextProvider = (props) => {
 
